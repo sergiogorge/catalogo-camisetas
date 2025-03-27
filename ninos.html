@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adultos</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            background: url('fondo.jpg') no-repeat center center fixed; 
+            background-size: cover; 
+            color: white;
+        }
+        .container { 
+            max-width: 800px; 
+            margin: auto; 
+            padding: 20px; 
+        }
+        .category-list { 
+            list-style: none; 
+            padding: 0; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center;
+            gap: 15px;
+        }
+        .category-btn { 
+            display: block; 
+            width: 200px; 
+            background: rgba(0, 0, 0, 0.6); 
+            color: white; 
+            padding: 12px; 
+            text-decoration: none; 
+            border-radius: 5px; 
+            font-size: 1.2em; 
+            text-align: center;
+            transition: background 0.3s;
+        }
+        .category-btn:hover {
+            background: rgba(0, 0, 0, 0.8);
+        }
+        .back-link { 
+            display: block; 
+            margin: 20px; 
+            text-decoration: none; 
+            font-weight: bold; 
+            color: black;
+            font-size: 1.2em;
+        }
+        h1 {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Niños</h1>
+        <a class="back-link" href="index.html">Volver al inicio</a>
+        <ul class="category-list">
+            <li><a class="category-btn" href="laliga.html">La Liga</a></li>
+            <li><a class="category-btn" href="premier.html">Premier League</a></li>
+            <li><a class="category-btn" href="liga_italiana.html">Liga Italiana</a></li>
+            <li><a class="category-btn" href="liga_francesa.html">Liga Francesa</a></li>
+            <li><a class="category-btn" href="liga_alemana.html">Liga Alemana</a></li>
+            <li><a class="category-btn" href="selecciones.html">Selecciones</a></li>
+            <li><a class="category-btn" href="otros.html">Otros</a></li>
+        </ul>
+    </div>
+</body>
+</html>
